@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #111111;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .catalog-container {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 40px;
+        }
+        .product-image {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+        .product-description {
+            font-size: 15px;
+            color: #444444;
+            margin-bottom: 8px;
+            line-height: 1.4;
+            padding: 0 10px;
+        }
+        .product-price {
+            font-size: 16px;
+            font-weight: 600;
+            color: #111111;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="catalog-container">
+
+        <!-- 1. Cadena 5mm -->
+        <div class="product-card">
+            <img src="1881219694422265856.jpg" alt="Cadena dorada de eslabones de 5mm" class="product-image">
+            <p class="product-description">Cadena dorada de eslabones</p>
+            <p class="product-price">5,00 €</p>
+        </div>
+
+        <!-- 2. Cadena 4mm -->
+        <div class="product-card">
+            <img src="1881219721890762752.jpg" alt="Cadena dorada de eslabones de 4mm" class="product-image">
+            <p class="product-description">Cadena dorada de eslabones</p>
+            <p class="product-price">5,00 €</p>
+        </div>
+
+        <!-- 3. Anillo abierto -->
+        <div class="product-card">
+            <img src="1920366553287757824.jpg" alt="Anillo abierto dorado minimalista" class="product-image">
+            <p class="product-description">Anillo abierto dorado minimalista</p>
+            <p class="product-price">2,00 €</p>
+        </div>
+
+        <!-- 4. Anillo círculos/soles -->
+        <div class="product-card">
+            <img src="1920367744193269760.jpg" alt="Anillo dorado con detalles texturizados de círculos/soles" class="product-image">
+            <p class="product-description">Anillo dorado con detalles texturizados de círculos/soles</p>
+            <p class="product-price">2,00 €</p>
+        </div>
+
+        <!-- 5. Anillo doble -->
+        <div class="product-card">
+            <img src="1920367760764964864.jpg" alt="Anillo doble dorado texturizado" class="product-image">
+            <p class="product-description">Anillo doble dorado texturizado</p>
+            <p class="product-price">2,00 €</p>
+        </div>
+
+        <!-- 6. Pulsera dorada fina con bolitas -->
+        <div class="product-card">
+            <img src="1939637425898917888.jpg" alt="Pulsera dorada fina de eslabones con abalorios de bolitas y cierre ajustable" class="product-image">
+            <p class="product-description">Pulsera dorada fina de eslabones con abalorios de bolitas y cierre ajustable</p>
+            <p class="product-price">3,00 €</p>
+        </div>
+
+        <!-- 7. Bolso de hombro negro -->
+        <div class="product-card">
+            <img src="1939883787781541888.jpg" alt="Bolso de hombro negro con solapa y cierre metálico dorado" class="product-image">
+            <p class="product-description">Bolso de hombro negro con solapa y cierre metálico dorado</p>
+            <p class="product-price">12,00 €</p>
+        </div>
+
+        <!-- 8. Set de pendientes de aro -->
+        <div class="product-card">
+            <img src="1976485950510993408.jpg" alt="Set de pendientes de aro dorados de acero inoxidable de varios tamaños" class="product-image">
+            <p class="product-description">Set de pendientes de aro dorados de acero inoxidable de varios tamaños</p>
+            <p class="product-price">3,00 €</p>
+        </div>
+
+        <!-- 9. Collar dorado con corazón -->
+        <div class="product-card">
+            <img src="2049656954598592512.jpg" alt="Collar dorado con colgante de corazón liso" class="product-image">
+            <p class="product-description">Collar dorado con colgante de corazón liso</p>
+            <p class="product-price">4,00 €</p>
+        </div>
+
+        <!-- 10. Pendientes dorados de flor -->
+        <div class="product-card">
+            <img src="2059915140966518784.jpg" alt="Pendientes dorados en forma de flor texturizada de acero inoxidable" class="product-image">
+            <p class="product-description">Pendientes dorados en forma de flor texturizada de acero inoxidable</p>
+            <p class="product-price">2,50 €</p>
+        </div>
+
+        <!-- 11. Pulsera dorada delgada plato blanco -->
+        <div class="product-card">
+            <img src="2067417399086419968.jpg" alt="Pulsera dorada delgada con abalorios sobre plato blanco" class="product-image">
+            <p class="product-description">Pulsera dorada delgada con abalorios sobre plato blanco</p>
+            <p class="product-price">3,00 €</p>
+        </div>
+
+        <!-- 12. Pulsera eslabones anchos (Brazalete) -->
+        <div class="product-card">
+            <img src="2082300949489127424.jpg" alt="Pulsera de eslabones anchos dorados de acero inoxidable Stainless Steel" class="product-image">
+            <p class="product-description">Pulsera de eslabones anchos dorados de acero inoxidable "Stainless Steel"</p>
+            <p class="product-price">5,00 €</p>
+        </div>
+
+        <!-- 13. Bolso tipo hobo marrón gamuza -->
+        <div class="product-card">
+            <img src="2092273039717830656.jpg" alt="Bolso tipo hobo marrón estilo ante / gamuza" class="product-image">
+            <p class="product-description">Bolso tipo hobo marrón estilo ante / gamuza</p>
+            <p class="product-price">15,00 €</p>
+        </div>
+
+        <!-- 14. Bolso negro alargado con hebilla -->
+        <div class="product-card">
+            <img src="2092864647635013632.jpg" alt="Bolso negro alargado con hebilla decorativa dorada" class="product-image">
+            <p class="product-description">Bolso negro alargado con hebilla decorativa dorada</p>
+            <p class="product-price">12,00 €</p>
+        </div>
+
+        <!-- 15. Bolso marrón oscuro alargado con hebilla -->
+        <div class="product-card">
+            <img src="2092864663405596672.jpg" alt="Bolso marrón oscuro alargado con hebilla decorativa dorada" class="product-image">
+            <p class="product-description">Bolso marrón oscuro alargado con hebilla decorativa dorada</p>
+            <p class="product-price">12,00 €</p>
+        </div>
+
+        <!-- 16. Bolso marrón vino con solapa -->
+        <div class="product-card">
+            <img src="2101592875539238912.jpg" alt="Bolso de hombro marrón vino con solapa y hebilla frontal" class="product-image">
+            <p class="product-description">Bolso de hombro marrón vino con solapa y hebilla frontal</p>
+            <p class="product-price">10,00 €</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
